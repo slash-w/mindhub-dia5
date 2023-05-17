@@ -1,0 +1,44 @@
+/*      !!! SCREEN RESOLUTION 1440x900 !!!      */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/fondo-flex.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+main{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: column;
+}
+
+main div{
+    display: flex;
+    width: 100vw;
+}
+
+.box1{
+    justify-content: space-around;
+}
+
+.box2{
+    justify-content: space-between;
+}
+
+.box3{
+    justify-content: center;
+}
